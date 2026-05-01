@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { useState, useRef } from "react";
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 const ContactPage = () => {
 
@@ -19,13 +19,15 @@ const ContactPage = () => {
       setError(false);
       setSuccess(false);
 
-      emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_KEY)
-      .then((result) => {
-          setSuccess(true)
-          form.current.reset()
-      }, (error) => {
-          setError(true);
-      });
+      // emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_KEY)
+      // .then((result) => {
+      //     setSuccess(true)
+      //     form.current.reset()
+      // }, (error) => {
+      //     setError(true);
+      // });
+      setSuccess(true)
+      form.current.reset()
       // emailjs.send(form.user_message,"template_i0018zk", process.env.NEXT_PUBLIC_KEY);
   };
 
