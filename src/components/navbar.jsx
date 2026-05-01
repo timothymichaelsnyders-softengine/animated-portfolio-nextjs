@@ -85,7 +85,7 @@ const Navbar = () => {
         </div>
         {/* SOCIAL */}
         <div className="hidden md:flex gap-4 w-1/3">
-            <Link href="">
+            <Link href="https://github.com/timothymichaelsnyders-softengine?tab=repositories">
                 <Image src="/github.png" alt="" width={24} height={24}/>
             </Link>
             <Link href="">
@@ -100,7 +100,7 @@ const Navbar = () => {
             <Link href="">
                 <Image src="/pinterest.png" alt="" width={24} height={24}/>
             </Link>
-            <Link href="">
+            <Link href="https://za.linkedin.com/in/timothy-michael-snyders-0840023b2">
                 <Image src="/linkedin.png" alt="" width={24} height={24}/>
             </Link>
         </div>
