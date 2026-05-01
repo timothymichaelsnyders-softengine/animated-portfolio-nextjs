@@ -38,7 +38,7 @@ const AboutPage = () => {
               while ensuring that I deliver reliable, efficient solutions on time.
             </p>
             {/* BIOGRAPHY QUOTE */}
-            <span className="italic">If it's hard then do it hard. If it's easy, do it easy. Just get it done.</span>
+            <span className="italic">If it&apos;s hard then do it hard. If it&apos;s easy, do it easy. Just get it done.</span>
             {/* BIOGRAPHY SIGNATURE */}
             <div className="self-end">
               <svg
